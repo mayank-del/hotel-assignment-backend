@@ -7,7 +7,7 @@ module.exports=()=>{
         mongoose.connect(process.env.DB_URL,()=>{
             console.log("Database connected");
 
-        });
+        })
     }catch(e){
         console.log("Could not connect to database"+e);
     }
